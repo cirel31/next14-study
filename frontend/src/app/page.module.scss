@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  background-color: #fff;
+  width: 100dvw;
+  height: 100dvh;
+}
+
+.left {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.right h1 {
+  font-weight: bold;
+  font-size: 64px;
+  margin: 48px 0;
+}
+.right h2 {
+  font-weight: bold;
+  font-size: 17px;
+  margin: 20px 0;
+}
+.right h3 {
+  font-weight: bold;
+  font-size: 40px;
+  margin: 20px 0;
+}
+
+.signup {
+
+}
+.signup:hover {
+
+}
+
+.login {
+
+}
+.login:hover {
+
+}
